@@ -1,0 +1,230 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #340202;
+}
+
+.body {
+    height: 80rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@media (max-width: 1035px){
+    body{
+        height: 80rem;
+    }
+}
+
+.container {
+    width: 70%;
+    height: 90%;
+    background-color: #fdf6ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #4b0202 0px 5px 15px;
+}
+@media (max-width: 1035px){
+    .container{
+        height: 97%;
+    }
+}
+
+/* ----------------------  RESUME ------------------------------------ */
+
+
+.second-cont {
+    width: 93%;
+    height: 96%;
+    background-color: #fdf6ef;
+    border: 3px solid #4b0202;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-cont {
+    width: 94%;
+    height: 94%;
+    background-color: #fdf6ef;
+    border-radius: 4px;
+}
+
+.inner-one {
+
+    height: 8rem;
+    width: 100%;
+    gap: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+}
+@media (max-width: 780px){
+    .inner-one{
+        height: 6rem;
+    }
+}
+a{
+    text-decoration: none;
+}
+
+.col-md-12 {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-position-y: center;
+}
+
+@media (max-width: 780px) {
+    .col-md-4 {
+        height: 5rem;
+    }
+}
+
+.col-md-8 {
+    padding-top: 1rem;
+    width: 80%;
+    height: 10rem;
+   
+}
+@media (max-width: 780px) {
+    .col-md-8 {
+       padding: 0;
+    }
+}
+
+ .cont{
+    line-height: 20px;
+ }
+
+@media (max-width: 780px) {
+    .col-md-8 {
+        height: 5rem;
+        padding-top: 0;
+    }
+}
+
+hr {
+    border: 1.5px solid #4b0202;
+}
+
+h1 {
+    font-size: 300%;
+    color: #340202;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 780px) {
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+#p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 80%;
+    text-align: center;
+   
+}
+
+@media (max-width: 786px) {
+    #p {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 786px) {
+    p {
+        font-size: 0.5rem;
+    }
+}
+.inner-second{
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    p{
+        padding-top: 8px;
+    }
+}
+
+.Bottom{
+   display: flex;
+   color: aquamarine;
+   width: 100%;
+   height: auto;
+  display: flex;
+
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   p{
+       padding-top: 8px;
+   }
+}
+
+
+.span{
+    display: inline;
+}
+
+.inner{
+    width: 30%;
+}
+.Skills{
+    width: 25%;
+    border-right: 2px solid #4b0202;
+    padding: 20px;
+
+}
+@media (max-width: 780px){
+    .Skills{
+        font-size: 8px;
+        width: auto;
+    padding: 10px;
+
+    }
+}
+.Education{
+    width: 40%;
+    padding: 20px;
+    border-right: 2px solid #4b0202;
+
+}
+
+@media (max-width: 780px){
+    .Education{
+        font-size: 8px;
+        width: 40%;
+        padding: 10px;
+
+
+
+    }
+}
+.Contact{
+    width: 40%;
+    padding: 20px;
+}
+@media (max-width: 780px){
+    .Contact{
+        font-size: 8px;
+        width: auto;
+       padding: 8px;
+    }
+}
+@media (max-width: 780px){
+    .Contact> p:nth-child(3){
+        font-size: 6px;
+    }
+}
